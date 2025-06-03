@@ -3,7 +3,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import styles from "./test.module.css";
 
-const page = () => {
+const Test = () => {
   const [time, setTime] = useState(0);
   const [totalTime, setTotalTime] = useState(0);
   const [running, setRunning] = useState(false);
@@ -80,4 +80,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Test;
