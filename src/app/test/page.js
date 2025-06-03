@@ -76,6 +76,7 @@ const Test = () => {
       >
         Cancel
       </button>
+      <p className="text-gray-700 font-bold">테스트용 타이머요!</p>
     </div>
   );
 };
